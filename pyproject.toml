@@ -1,5 +1,5 @@
 [project]
-name = "portwatch"
+name = "portwatch-ctonev"
 version = "0.1.0"
 description = "A CLI tool to track and report on a personal stock portfolio"
 readme = "README.md"

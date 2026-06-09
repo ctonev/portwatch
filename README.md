@@ -5,7 +5,7 @@ A CLI tool to track and report live P&L for your personal stock portfolio.
 ## Installation
 
 ```bash
-pip install portwatch
+pip install portwatch-ctonev
 ```
 
 ## Usage
