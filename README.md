@@ -12,9 +12,12 @@ pip install portwatch
 
 Create a CSV file with your holdings:
 
+
+```bash
 ticker,shares,cost_basis
 AAPL,10,150.00
 MSFT,5,300.00
+```
 
 Then run:
 
