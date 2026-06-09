@@ -28,3 +28,8 @@ Homepage = "https://github.com/ctonev/portwatch"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/portwatch"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
