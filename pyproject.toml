@@ -4,19 +4,27 @@ version = "0.1.0"
 description = "A CLI tool to track and report on a personal stock portfolio"
 readme = "README.md"
 requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Christo Tonev", email = "christo.tonev@gmail.com" }
+]
+keywords = ["portfolio", "stocks", "finance", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "yfinance>=0.2",
     "rich>=13.0",
     "click>=8.0",
 ]
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/portwatch"]
-
-[dependency-groups]
-dev = [
-    "pytest>=9.0.3",
-]
-
 [project.scripts]
 portwatch = "portwatch.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ctonev/portwatch"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/portwatch"]
